@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Employee Tracker
+    </title>
+</head>
+<body>
+    <div>
+        <a href="@Url.Action("AddEmployeePage", "Home")">Add Employee</a> || 
+        <a href="@Url.Action("ViewEmployeePage", "Home")">View Employees</a>
+    </div>
+    <hr />
+    <div>
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

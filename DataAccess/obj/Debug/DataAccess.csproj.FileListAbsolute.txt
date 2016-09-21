@@ -1,0 +1,5 @@
+D:\Tasks\Unit testing training\Employee Tracker\DataAccess\bin\Debug\DataAccess.dll
+D:\Tasks\Unit testing training\Employee Tracker\DataAccess\bin\Debug\DataAccess.pdb
+D:\Tasks\Unit testing training\Employee Tracker\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Tasks\Unit testing training\Employee Tracker\DataAccess\obj\Debug\DataAccess.dll
+D:\Tasks\Unit testing training\Employee Tracker\DataAccess\obj\Debug\DataAccess.pdb

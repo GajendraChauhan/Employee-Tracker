@@ -1,0 +1,5 @@
+D:\Tasks\Unit testing training\Employee Tracker\EmpModels\bin\Debug\EmpModels.dll
+D:\Tasks\Unit testing training\Employee Tracker\EmpModels\bin\Debug\EmpModels.pdb
+D:\Tasks\Unit testing training\Employee Tracker\EmpModels\obj\Debug\EmpModels.dll
+D:\Tasks\Unit testing training\Employee Tracker\EmpModels\obj\Debug\EmpModels.pdb
+D:\Tasks\Unit testing training\Employee Tracker\EmpModels\obj\Debug\EmpModels.csprojResolveAssemblyReference.cache

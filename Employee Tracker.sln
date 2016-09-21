@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee Tracker", "Employee Tracker\Employee Tracker.csproj", "{6C288B56-2636-4E19-8D7E-9CF94701E1E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E79C96F3-5844-4F86-956E-CC8CE4082A8E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpBusiness", "EmpBusinessLayer\EmpBusiness.csproj", "{B786722C-DC19-409A-9C8A-EC183C6F1EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{41C857CE-52C1-4B6A-B93A-8D152828088A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpModels", "EmpModels\EmpModels.csproj", "{2EAE95D2-73CD-427C-99A7-1BEA195AAFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpRepository", "EmpRepository\EmpRepository.csproj", "{E32F6CA2-13EF-4024-A1F8-B9C3EC4F90F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpBusiness.Test", "EmpBusiness.Test\EmpBusiness.Test.csproj", "{245FFF2F-DAE7-435A-8CCC-4874DE44CFB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C288B56-2636-4E19-8D7E-9CF94701E1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C288B56-2636-4E19-8D7E-9CF94701E1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C288B56-2636-4E19-8D7E-9CF94701E1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C288B56-2636-4E19-8D7E-9CF94701E1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B786722C-DC19-409A-9C8A-EC183C6F1EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B786722C-DC19-409A-9C8A-EC183C6F1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B786722C-DC19-409A-9C8A-EC183C6F1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B786722C-DC19-409A-9C8A-EC183C6F1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C857CE-52C1-4B6A-B93A-8D152828088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C857CE-52C1-4B6A-B93A-8D152828088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C857CE-52C1-4B6A-B93A-8D152828088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C857CE-52C1-4B6A-B93A-8D152828088A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAE95D2-73CD-427C-99A7-1BEA195AAFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAE95D2-73CD-427C-99A7-1BEA195AAFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAE95D2-73CD-427C-99A7-1BEA195AAFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAE95D2-73CD-427C-99A7-1BEA195AAFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32F6CA2-13EF-4024-A1F8-B9C3EC4F90F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32F6CA2-13EF-4024-A1F8-B9C3EC4F90F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32F6CA2-13EF-4024-A1F8-B9C3EC4F90F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32F6CA2-13EF-4024-A1F8-B9C3EC4F90F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245FFF2F-DAE7-435A-8CCC-4874DE44CFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245FFF2F-DAE7-435A-8CCC-4874DE44CFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245FFF2F-DAE7-435A-8CCC-4874DE44CFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245FFF2F-DAE7-435A-8CCC-4874DE44CFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

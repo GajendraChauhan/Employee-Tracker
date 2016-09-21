@@ -1,0 +1,33 @@
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Employee Tracker.Tests.dll.config
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Employee Tracker.Tests.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Employee Tracker.Tests.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Employee Tracker.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Razor.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Employee Tracker.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Razor.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\obj\Debug\Employee Tracker.Tests.csprojResolveAssemblyReference.cache
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\obj\Debug\Employee Tracker.Tests.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\obj\Debug\Employee Tracker.Tests.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpBusinessLayer.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpRepository.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpModels.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\DataAccess.dll
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpBusinessLayer.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpRepository.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\EmpModels.pdb
+D:\Tasks\Unit testing training\Employee Tracker\Employee Tracker.Tests\bin\Debug\DataAccess.pdb

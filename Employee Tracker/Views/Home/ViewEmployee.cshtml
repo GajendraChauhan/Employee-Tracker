@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "ViewEmployee";
+}
+
+<h3>Sub Filters</h3>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "All", sortOrder= "asc"})">View All</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "fem", sortOrder= "asc"})">View Female</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "male", sortOrder= "asc"})">View Male</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "best2", sortOrder= "asc"})">View Best 2 Rated</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "last2", sortOrder= "asc"})">View Last 2 Rated</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "topPaid", sortOrder= "asc"})">View Top Paid</a>
+<a href="@Url.Action("ViewEmployeePage", "Home", new {condition= "leastPaid", sortOrder= "asc"})">View Least Paid</a>
+<hr />
+
+@{
+        <table>
+            <thead>
+                <td>Employee Id</td>
+                <td>Name</td>
+                <td>Gender</td>
+                <td>Salary</td>
+                <td>Rating</td>
+                <td>Department</td>
+            </thead>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.EmployeeId</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Gender</td>
+                    <td>@emp.Salary</td>
+                    <td>@emp.Rating</td>
+                    <td>@emp.Department</td>
+                </tr>
+            }
+        </table>
+}
