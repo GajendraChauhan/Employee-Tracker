@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 using EmpRepository.Interfaces;
 using EmpModels;
@@ -13,16 +12,16 @@ namespace EmpBusiness.Test
         [TestMethod]
         public void TestAllEmployees()
         {
-            var s = MockRepository.GenerateStub<IEmployeeRepository>();
+            var mockRepo = MockRepository.GenerateStub<IEmployeeRepository>();
             var eList = new List<Employee>{new Employee
                     {
                         EmployeeId = 1,
-                        Gender = "Male"
+                        Gender = "M"
                     }
                 };
-            s.Stub(x => x.GetEmployeeList()).Return(eList);
+            mockRepo.Stub(x => x.GetEmployeeList()).Return(eList);
 
-            var empManager = new EmployeeManager(s);
+            var empManager = new EmployeeManager(mockRepo);
             var empList = empManager.GetEmployeeList();
             Assert.AreEqual(empList, eList);
         }
@@ -30,47 +29,47 @@ namespace EmpBusiness.Test
         [TestMethod]
         public void TestEmployeeFetchByFilter()
         {
+            var mockRepo = MockRepository.GenerateStub<IEmployeeRepository>();
+            var eList = new List<Employee>{
+                    new Employee
+                    {
+                        EmployeeId = 1,
+                        Gender = "M"
+                    },
+                    new Employee
+                    {
+                        EmployeeId = 2,
+                        Gender = "F"
+                    }
+                };
+            mockRepo.Stub(x => x.GetEmployeeList()).Return(eList);
+            var empManager = new EmployeeManager(mockRepo);
+            var fList = empManager.FilterEmployeeBy("fem", "");
+            Assert.AreEqual(fList[0].Gender, "F");
+        }
+
+        [TestMethod]
+        public void TestFemaleEmployees()
+        {
             var s = MockRepository.GenerateStub<IEmployeeRepository>();
             var eList = new List<Employee>{
                     new Employee
                     {
                         EmployeeId = 1,
-                        Gender = "Male"
+                        Gender = "M"
                     },
                     new Employee
                     {
                         EmployeeId = 2,
-                        Gender = "Female"
+                        Gender = "F"
                     }
                 };
             s.Stub(x => x.GetEmployeeList()).Return(eList);
+
             var empManager = new EmployeeManager(s);
-            var fList = empManager.FilterEmployeeBy("fem", "");
-            Assert.AreEqual(fList[0].Gender, "Female");
+            var empList = empManager.GetEmployeeFemaleList();
+            Assert.AreEqual(empList[0].Gender, "F");
         }
-
-        //[TestMethod]
-        //public void TestFemaleEmployees()
-        //{
-        //    var s = MockRepository.GenerateStub<IEmployeeRepository>();
-        //    var eList = new List<Employee>{
-        //            new Employee
-        //            {
-        //                EmployeeId = 1,
-        //                Gender = "Male"
-        //            },
-        //            new Employee
-        //            {
-        //                EmployeeId = 2,
-        //                Gender = "Female"
-        //            }
-        //        };
-        //    s.Stub(x => x.GetEmployeeList()).Return(eList);
-
-        //    var empManager = new EmployeeManager(s);
-        //    var empList = empManager.GetEmployeeFemaleList();
-        //    Assert.AreEqual(empList[0].Gender, "Female");
-        //}
 
         //[TestMethod]
         //public void TestMaleEmployees()
@@ -80,19 +79,19 @@ namespace EmpBusiness.Test
         //            new Employee
         //            {
         //                EmployeeId = 1,
-        //                Gender = "Male"
+        //                Gender = "M"
         //            },
         //            new Employee
         //            {
         //                EmployeeId = 2,
-        //                Gender = "Female"
+        //                Gender = "F"
         //            }
         //        };
         //    s.Stub(x => x.GetEmployeeList()).Return(eList);
 
         //    var empManager = new EmployeeManager(s);
         //    var empList = empManager.GetEmployeeMaleList();
-        //    Assert.AreEqual(empList[0].Gender, "Male");
+        //    Assert.AreEqual(empList[0].Gender, "M");
         //}
     }
 }

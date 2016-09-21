@@ -1,12 +1,8 @@
 ﻿using EmpBusiness.EmpBusinessContracts;
 using EmpModels;
-using EmpRepository;
 using EmpRepository.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmpBusiness
 {
@@ -74,14 +70,13 @@ namespace EmpBusiness
             this._empRepo.AddEmployee(emp);
         }
 
-
         public List<Employee> GetEmployeeFemaleList()
         {
             var empList = this.GetEmployeeList();
             List<Employee> empRet = new List<Employee>();
             foreach (var emp in empList)
             {
-                if (emp.Gender == "Female")
+                if (emp.Gender == "F")
                     empRet.Add(emp);
             }
             return empRet;
@@ -93,7 +88,7 @@ namespace EmpBusiness
             List<Employee> empRet = new List<Employee>();
             foreach (var emp in empList)
             {
-                if (emp.Gender == "Male")
+                if (emp.Gender == "M")
                     empRet.Add(emp);
             }
             return empRet;
